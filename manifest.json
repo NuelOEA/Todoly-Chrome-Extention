@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Simple To-Do List",
+    "version": "1.0",
+    "description": "A simple to-do list Chrome extension",
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "todo.png"
+    },
+    "icons": {
+        "16": "todo.png",
+        "48": "todo.png",
+        "128": "todo.png"
+    }
+}
